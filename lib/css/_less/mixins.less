@@ -21,7 +21,6 @@
   -ms-user-select: none;
 }
 .gradient (@color1, @color2r, @color2g, @color2b, @color2a, @size1, @size2, @deg) {
-	
 	background-color: @color1;
 	background-image: -webkit-linear-gradient(@deg, 0 0, 0 100%, color-stop(.5, rgba(@color2r, @color2g, @color2b, @color2a)), color-stop(.5, transparent), to(transparent));
 	background-image: -moz-linear-gradient(@deg, rgba(@color2r, @color2g, @color2b, @color2a) 50%, transparent 50%, transparent);
@@ -31,8 +30,6 @@
 	-moz-background-size: @size1 @size2;
 	background-size: @size1 @size2;
 }
-
-
 .rounded-corners (@radius: 5px) {
   -webkit-border-radius: @radius;
   -moz-border-radius: @radius;

@@ -1,95 +1,4 @@
 @import "ionicons.css";
-* {
-  margin: 0;
-  padding: 0;
-}
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-body {
-  background: #ffffff;
-}
-::selection {
-  background: #b21455;
-  /* Safari */
-}
-::-moz-selection {
-  background: #b21455;
-  /* Firefox */
-}
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-.site {
-  margin: 0 auto;
-}
-.content {
-  min-height: 30em;
-  padding: 0 0 2em;
-}
-hr {
-  height: .05em;
-  border: none;
-  background: #ccc;
-}
-.grid img {
-  max-width: 100%;
-}
-header.main {
-  *zoom: 1;
-}
-header.main:before,
-header.main:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-header.main:after {
-  clear: both;
-}
-header.main:before,
-header.main:after {
-  content: " ";
-  display: table;
-}
-header.main:after {
-  clear: both;
-}
-header.main li {
-  list-style: none;
-}
-header.main a:hover {
-  text-decoration: none;
-}
-header.main .logo {
-  display: block;
-  width: 100%;
-}
-header.main .logo img {
-  max-width: 100%;
-}
-header.main .logo a {
-  text-decoration: none;
-}
-.container > section {
-  font-size: 110%;
-}
-.posts li {
-  padding: 1em 0;
-}
-footer {
-  font-size: 110%;
-  padding: .5em 0;
-}
-footer .colophon {
-  clear: both;
-  text-align: right;
-}
 /* -- FLUID GRID STYLES -- */
 .grid {
   text-align: justify;
@@ -172,6 +81,87 @@ a:active {
 a:hover {
   color: #ea4287;
 }
+blockquote {
+  margin: 1.5em;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+}
+::selection {
+  background: #b21455;
+  /* Safari */
+}
+::-moz-selection {
+  background: #b21455;
+  /* Firefox */
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.site {
+  margin: 0 auto;
+}
+.content {
+  min-height: 30em;
+  padding: 0 0 2em;
+}
+hr {
+  height: .05em;
+  border: none;
+  background: #ccc;
+}
+.grid img {
+  max-width: 100%;
+}
+header.main {
+  *zoom: 1;
+}
+header.main:before,
+header.main:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+header.main:after {
+  clear: both;
+}
+header.main:before,
+header.main:after {
+  content: " ";
+  display: table;
+}
+header.main:after {
+  clear: both;
+}
+header.main li {
+  list-style: none;
+}
+header.main a:hover {
+  text-decoration: none;
+}
+.posts li {
+  padding: 1em 0;
+}
+footer {
+  font-size: 110%;
+  padding: .5em 0;
+}
+footer .colophon {
+  clear: both;
+  text-align: right;
+}
 header.main {
   background: black;
 }
@@ -185,17 +175,8 @@ footer {
   background: #cccccc;
 }
 @media only screen and (min-width: 40em) {
-  header.main {
-    background-position: center bottom;
-  }
-  header.main .logo {
-    padding: 1em 0 0;
-  }
-  .container > section {
-    padding: 2em 0;
-  }
-  footer p {
-    font-size: 95%;
+  .site p {
+    font-size: 125%;
   }
 }
 @media only screen and (min-width: 70em) {
@@ -233,10 +214,6 @@ footer {
   }
 }
 @media only screen and (max-width: 40em) {
-  header.main {
-    background-position: center bottom;
-    font-size: .75em;
-  }
   .site {
     padding: 1em;
     width: 100%;
